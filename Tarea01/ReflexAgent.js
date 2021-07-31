@@ -76,6 +76,16 @@ function stateCMP(states){
     }
 }
 
+function iter(){
+    for (let index = 0; index < statesList.length; index++) {
+        const element = statesList[index];
+        if(element<2)
+            return true
+        else
+            return false
+    }
+}
+
 function test(states){
         
       	var location = states[0];		
@@ -89,7 +99,8 @@ function test(states){
         }
         else if (action_result == "RIGHT") states[0] = "B";
         else if (action_result == "LEFT") states[0] = "A";	
-	setTimeout(function(){ test(states); }, 3000);
+    if(iter())
+	    setTimeout(function(){ test(states); }, 3000);
 }
 
 var flag = 1;
