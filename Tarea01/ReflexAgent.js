@@ -81,9 +81,8 @@ function iter(){
         const element = statesList[index];
         if(element<2)
             return true
-        else
-            return false
     }
+    return false;
 }
 
 function test(states){
