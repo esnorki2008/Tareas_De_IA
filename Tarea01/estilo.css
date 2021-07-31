@@ -1,0 +1,39 @@
+
+  h1 {
+    color: #375EED;
+    text-align: center;
+    padding-top: 2%;
+  }
+
+  h5 {
+   color: #375EED;
+ }
+ .mybox{
+    border-style: ridge none ridge none;
+    border-width: thin;
+    border-color: #375EED;
+    padding-top: 2%;
+    padding-bottom: 2%;
+ }
+.myFlex{
+    align-items: center;
+}
+ .myContainer{
+    padding-left: 1%;
+    align-items: center;
+    text-align: center;
+    color: #375EED;
+    padding-right: 1%;
+    border-style: dotted dotted dotted dotted;
+ }
+
+ .textEstado{
+    text-align: left; 
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+ img{
+   width:200px;
+   height:200px;
+}
